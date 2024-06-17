@@ -55,11 +55,11 @@ internal suspend fun PipelineContext<Unit, ApplicationCall>.indexCall() {
             }
         }
         body {
-            a(href = "https://github.com/komputing/FaucETH", classes = "github-fork-ribbon fixed") {
-                attributes["title"] = "Fork me on GitHub"
-                attributes["data-ribbon"] = "Fork me on GitHub"
-                +"Fork me on Fork me on GitHub"
-            }
+//            a(href = "https://github.com/komputing/FaucETH", classes = "github-fork-ribbon fixed") {
+//                attributes["title"] = "Fork me on GitHub"
+//                attributes["data-ribbon"] = "Fork me on GitHub"
+//                +"Fork me on Fork me on GitHub"
+//            }
             div(classes = "container") {
                 div {
                     form {
