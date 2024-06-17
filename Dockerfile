@@ -1,6 +1,7 @@
 FROM gradle:jdk8 AS build
 WORKDIR /home/gradle/src
 COPY --chown=gradle:gradle . /home/gradle/src
+RUN chmod +x ./gradlew
 RUN ./gradlew installDist
 
 FROM openjdk:8-jre-slim
